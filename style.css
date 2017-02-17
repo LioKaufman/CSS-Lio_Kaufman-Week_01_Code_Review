@@ -47,13 +47,55 @@ iframe.Posts {
 	padding: 5px 20px 3px;
 }
 
-#NavLink {
+/* Defines the look of the context menu in the side bar */
+#ContextMenu {
+	list-style-type: none;
+}
+
+.ContextNav {
+	text-decoration:none;
+	color: #1D2129;
+}
+
+/* Defines the divs for the links in the sidebar context menu. */
+.Links {
+	height: 25px;
+	margin: 1px 1px 1px 1px;
+	padding: 1px 1px 15px 10px;
+}
+
+/*Defines the behaviour of the context menu links*/
+/* use of pseudo-class and pseudo-element. */
+.Links:hover {
+	background-color: #F6F7F9;
+	box-shadow: inset 0 0 2px 1px #ddd;
+}
+
+/* Defines the look of the main menu navigation elements */
+#MenuNav {
 	list-style-type: none;
 	text-align: right;
 }
 
-#NavLink li {
+#MenuNav li {
 	display: inline;
-	color: white;
 	margin: 5px 5px 5px 5px;
+}
+
+/*Defines the behaviour of the main menu links*/
+/* use of pseudo-class and pseudo-element. */
+#MenuNav * a:link {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+#MenuNav * a:visited {
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+#MenuNav * a:hover {
+	text-decoration:none;
+	background-color: #355089;
+	color: lightgray;
 }
