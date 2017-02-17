@@ -45,15 +45,15 @@ iframe.Posts {
 	height: 780px;
 }
 
+/* Describes the side bars. */
 .SideBar {
-	border: 2px solid;
 	float: left;
 	width: 15%;
 	height: 800px;
 	margin: 1% 5px 5px;
 	padding: 5px 20px 3px;
 }
-
+/* Describes the main central news feed look. */
 .Feed {
 	float: left;
 	width: 50%;
