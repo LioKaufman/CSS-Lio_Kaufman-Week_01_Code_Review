@@ -1,0 +1,28 @@
+/*
+Used eyedrop plugin to grab the rgb colour values from facebook in order
+to demostrate the use of the ColorPicker plugin, maintain corporate colours, 
+and to ensure a balanced colour scheme for the layout. 
+*/
+
+body {
+	background-color: rgb(233,235,238);
+}
+
+/* Use of inhretance */
+/* Set the navigation bar style */
+body > header > nav {
+	background-color: rgb(59,89,152);
+	height: 30px;
+	padding: 1px 100px 10px;
+}
+
+#NavLink {
+	list-style-type: none;
+	text-align: right;
+}
+
+#NavLink li {
+	display: inline;
+	color: white;
+	margin: 5px 5px 5px 5px;
+}
