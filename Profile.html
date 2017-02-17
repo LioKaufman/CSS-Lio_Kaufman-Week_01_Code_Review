@@ -68,7 +68,25 @@
 			</ul>
 		</aside>
 		<main class="Feed">
-			form
+			<!-- Use of a form to correcting gathering / personal info -->
+			<h2>Change Your Personal Information:</h2>
+			<!-- 
+			form[Amend_Profile.php]>input[type=text name=FirstName]{Change First-Name to:}+input[type=text Name=Surname]{Chaneg Surname to:}+input[type=date name=DOB]{Change Date of Birth to:}+input[type=tel name=Mobile]{Change Mobile No. to:}+select[name=Language]>Option[Value=En]{English}+Option[Value=De]{Deutsch} 
+			-->
+			<form action="Amend_Profile.php">
+				<input type="text" name="FirstName" placeholder="First-Name:"></input>
+				<br><br>
+				<input type="text" Name="Surname" placeholder="Surname:"></input>
+				<br><br>
+				<input type="date" name="DOB" placeholder="Date of Birth:"></input>
+				<br><br>
+				<input type="tel" name="Mobile" placeholder="Mobile No.:"></input>
+				<br><br>
+				<select name="Language" id="">
+					<Option Value="En">English</Option>
+					<Option Value="De">Deutsch</Option>
+				</select>
+			</form>
 		</main>
 		<aside class="SideBar">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam fugit sequi rerum delectus impedit reiciendis sed deleniti suscipit fuga commodi voluptas, molestiae qui ut est officia ducimus, quae tenetur molestias!</p>

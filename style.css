@@ -13,20 +13,36 @@ body {
 body > header > nav {
 	background-color: rgb(59,89,152);
 	height: 30px;
-	padding: 1px 200px 10px;
+	padding: 1px 240px 10px;
+}
+
+/* Described the form for personal info. */
+/* use of pseudo-class and pseudo-element. */
+form * {
+	height: 25px;
+	font-weight: 700;
+	box-shadow: inset 0 0 1px 0px #ddd;
+	width: 200px;
+}
+
+form input:hover {
+	height: 25px;
+	font-weight: 700;
+	box-shadow: inset 0 0 1px 0px #ddd;
+	background-color: rgb(233,235,238);
 }
 
 /* Center all content in the page */
 /* use of id for styling */
 #Content {
 	position: absolute; 
-	right: 10%;
+	right: 5%;
 	width: 80%;
 }
 
 iframe.Posts {
 	width: 100%;
-	height: 750px;
+	height: 780px;
 }
 
 .SideBar {
@@ -39,9 +55,8 @@ iframe.Posts {
 }
 
 .Feed {
-	border: 2px solid;
 	float: left;
-	width: 59%;
+	width: 50%;
 	height: 800px;
 	margin: 1% 5px 5px;
 	padding: 5px 20px 3px;
@@ -67,7 +82,7 @@ iframe.Posts {
 }
 
 /*Defines the behaviour of the context menu links*/
-/* use of pseudo-class and pseudo-element. */
+/* use of pseudo-class. */
 .Links:hover {
 	background-color: #F6F7F9;
 	box-shadow: inset 0 0 2px 1px #ddd;
